@@ -1,5 +1,8 @@
 import * as vscode from 'vscode';
 
+// Define a trigger word, for example, "jsdoc" and a code trigger "/*"
+const codeTrigger = 'jsdoc';
+// Create a JSDoc snippet
 const mySnippet = new vscode.SnippetString(`/**
  * Description: \${1:description}
  * @param {\${2:type}} \${3:paramName} - \${4:Description}
@@ -10,6 +13,11 @@ const mySnippet = new vscode.SnippetString(`/**
 vscode.commands.registerCommand('extension.insertMySnippet', () => {
     const activeEditor = vscode.window.activeTextEditor;
     if (activeEditor) {
-        activeEditor.insertSnippet(mySnippet);
+        // Check if the line starts with the code trigger
+        const position = activeEditor.selection.active;
+        const line = activeEditor.document.lineAt(position.line);
+        if (line.text.startsWith(codeTrigger)) {
+            activeEditor.insertSnippet(mySnippet);
+        }
     }
 });
