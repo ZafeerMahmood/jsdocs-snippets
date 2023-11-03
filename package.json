@@ -3,7 +3,7 @@
   "displayName": "jsdocs snippets",
   "description": "to generate jsdocs with on the fly",
   "repository": "https://github.com/ZafeerMahmood/jsdocs-snippets.git",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "engines": {
     "vscode": "^1.84.0"
   },
