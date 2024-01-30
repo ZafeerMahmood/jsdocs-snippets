@@ -1,0 +1,15 @@
+{
+    "JSDoc Comment for Function": {
+      "prefix": "jsdoc",
+      "body": [
+        "/**",
+        " * @name $1",
+        " * @description $2",
+        " * @example $3",
+        " * @param {$4} $5 - $6",
+        " * @returns {$7}",
+        " */"
+      ],
+      "description": "JSDoc Comments for Function"
+    }
+  }
