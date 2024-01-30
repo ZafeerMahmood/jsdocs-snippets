@@ -19,7 +19,6 @@ This Visual Studio Code (VS Code) extension provides JSDoc comment snippets for 
 
 1. Open a JavaScript, JSX, or framework-specific file.
 2. Type `jsdoc` (or specific framework prefix) and trigger the snippet.
-3. The JSDoc comment template will be inserted with placeholders for easy documentation.
 
 ## Snippet Structure
 
