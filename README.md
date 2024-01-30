@@ -1,10 +1,35 @@
-# jsdocs-snippets README
+# JSDoc Snippets VS Code Extension
 
-Welcome to the README for your "jsdocs-snippets" extension! Below, you'll find information on the features, requirements, extension settings, known issues, and release notes for your extension.
+This Visual Studio Code (VS Code) extension provides JSDoc comment snippets for JavaScript, JSX, and various frameworks.
 
 ## Features
 
-**jsdocs-snippets** is designed to make it easier to add JSDoc comments to your JavaScript code. It provides a collection of JSDoc snippet templates that can be quickly inserted into your code. Here's how to use it:
+- **JSDoc Comment Snippet:** Quickly insert JSDoc comments with placeholders for description, parameters, and return type.
 
-1. Type a trigger word (e.g., `jsdoc`) and press `Tab` or `Enter` to expand a JSDoc snippet.
-2. Complete the placeholders within the snippet to document your code effectively.
+## Supported Languages
+
+- JavaScript
+- JavaScript React
+- Vue.js
+- Angular
+- Svelte
+- (Add more languages or frameworks as needed)
+
+## Usage
+
+1. Open a JavaScript, JSX, or framework-specific file.
+2. Type `jsdoc` (or specific framework prefix) and trigger the snippet.
+3. The JSDoc comment template will be inserted with placeholders for easy documentation.
+
+## Snippet Structure
+
+The JSDoc snippet structure is as follows:
+
+```javascript
+/**
+ * @name $1
+ * @description $2
+ * @example $3
+ * @param {$4} $5 - $6
+ * @returns {$7}
+ */
