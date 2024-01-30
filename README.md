@@ -32,3 +32,11 @@ The JSDoc snippet structure is as follows:
  * @param {$4} $5 - $6
  * @returns {$7}
  */
+```
+## Installation
+1. Open VS Code.
+3. Go to Extensions (Ctrl + Shift + X or Cmd + Shift + X).
+4. Search for "JSDoc Snippets" and install.
+   
+## Contributing
+Feel free to contribute by opening issues or submitting pull requests.
