@@ -3,13 +3,12 @@
         "prefix": "pydoc",
         "body": [
             "\"\"\"",
-            "Function description.",
             "",
-            "@name ${1:function_name}",
-            "@description ${2:Description of the function.}",
-            "@example ${3:Example of using the function.}",
-            "@param ${4:param_name} (${5:param_type}): ${6:Description of the parameter.}",
-            "@returns ${7:return_type}: ${8:Description of the return value.}",
+            "@name $1",
+            "@description $2",
+            "@example $3",
+            "@param $4 $5 $6 ",
+            "@returns $7 $8",
             "\"\"\""
         ],
         "description": "Python Docstring for Function"
