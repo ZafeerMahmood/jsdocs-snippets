@@ -1,0 +1,18 @@
+{
+    "Python Docstring for Function": {
+        "prefix": "pydoc",
+        "body": [
+            "\"\"\"",
+            "Function description.",
+            "",
+            "@name ${1:function_name}",
+            "@description ${2:Description of the function.}",
+            "@example ${3:Example of using the function.}",
+            "@param ${4:param_name} (${5:param_type}): ${6:Description of the parameter.}",
+            "@returns ${7:return_type}: ${8:Description of the return value.}",
+            "\"\"\""
+        ],
+        "description": "Python Docstring for Function"
+    }
+}
+  

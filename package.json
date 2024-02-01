@@ -1,7 +1,7 @@
 {
-  "name": "jsdocs-snippets",
-  "displayName": "jsdocs snippets",
-  "description": "to generate jsdocs with on the fly",
+  "name": "jsdocs-pydocs-snippets",
+  "displayName": "jsdocs/pydoc snippets",
+  "description": "to generate jsdocs/pydocs on the fly",
   "repository": "https://github.com/ZafeerMahmood/jsdocs-snippets.git",
   "version": "0.0.3",
   "engines": {
@@ -33,6 +33,18 @@
       {
         "language": "svelte",
         "path": "./snippets/javascript.json"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/javascript.json"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/javascript.json"
+      },
+      {
+        "language": "python",
+        "path": "./snippets/python.json"
       }
     ]
   },
